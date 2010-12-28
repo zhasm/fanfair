@@ -12,6 +12,48 @@
     </title> 
 </head> 
 <body> 
+    <table width="960" border="0" align="center">
+      <tr>
+        <td colspan="2"  align="center" ><h2>饭否好友管理</h2></td>
+      </tr>
+      <tr>
+        <td><span class="tips">选择好友群</span></td>
+        <td rowspan="5"><div id="personal_info"></div></td>
+      </tr>
+      <tr>
+        <td><input name="group" type="radio" value="all"  checked="checked">全部</input>
+          <input name="group" type="radio" value="not_follow_me">未关注我的</input>
+        <input name="group" type="radio" value="mutual">相互关注的</input></td>
+      </tr>
+      <tr>
+        <td><span class="tips">排序</span></td>
+      </tr>
+      <tr>
+        <td>
+            <button id="button_friends_sort_last_update">上次更新时间</button>
+            <button id="button_friends_sort_msg_count">消息总数</button>
+            <button id="button_friends_sort_friend_count">好友总数</button>
+            <button id="button_friends_sort_follower_count">关注总数</button>
+            <button id="button_friends_sort_register_time">注册时间</button>
+        </td>
+      </tr>
+      <tr>
+        <td>好友列表</td>
+      </tr>
+      <tr>
+        <td ><div id="result"></div></td>
+        <td >
+        <div id="management">
+            <ul>
+            <li><button id="frineds_check_all">Select All</button></li>
+            <li><button id="frineds_invert_select">Invert</button></li>
+            <li><button id="frineds_stop_follow">Stop Follow</button></li>
+            
+            </ul>
+        </div></td>
+      </tr>
+    </table> 
+
     <div id="login">
         <h2>登录</h2> 
         <p><label for="user_id">帐号</label><input type="text" id="user_id" /></p> 

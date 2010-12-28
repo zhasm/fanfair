@@ -1,3 +1,24 @@
 #login{
     display:none;
 }
+#result{
+	min-height:200px;
+	width:750px;
+}
+#management{
+	width:210px;
+	min-height:200px;
+}
+#management li
+{
+	list-style:none;
+	/*float:left;*/
+}
+#personal_info, #management, #result{
+    border:1px;
+	border-style:solid; 
+}
+#personal_info{
+    min-height:150px;
+    width:210px;
+}
