@@ -143,7 +143,7 @@ class Fanfou:
         return self.get() 
 
 def main():
-    fanfou=Fanfou("zhasm", "jianjian")
+    fanfou=Fanfou("******", "******")
     t=Timer()
     frs=fanfou.get_friends()
     fos=fanfou.get_friends("followers")
